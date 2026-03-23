@@ -1,0 +1,116 @@
+/* Palette System - 5 Options */
+
+/* Palette 1: Teal-Dark (Current/Default) */
+[data-palette="teal-dark"] {
+    --bg-primary: #f5f7fa !important;
+    --bg-secondary: #ffffff !important;
+    --text-primary: #11172a !important;
+    --text-secondary: #dfe5ec !important;
+    --accent: #599692 !important;
+    --border: #e5e7eb !important;
+    --shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+    --gradient: linear-gradient(135deg, #599692 0%, #4a9a94 100%) !important;
+}
+
+[data-palette="teal-dark"][data-theme="dark"] {
+    --bg-primary: #11172a !important;
+    --bg-secondary: #1a2235 !important;
+    --text-primary: #dfe5ec !important;
+    --text-secondary: #626c7d !important;
+    --accent: #599692 !important;
+    --border: #2a3749 !important;
+    --shadow: 0 10px 30px rgba(0,0,0,0.4) !important;
+    --gradient: linear-gradient(135deg, #11172a 0%, #1a2235 100%) !important;
+}
+
+/* Palette 2: Neon-Red */
+[data-palette="neon-red"] {
+    --bg-primary: #f8f9fa !important;
+    --bg-secondary: #ffffff !important;
+    --text-primary: #0d0f12 !important;
+    --text-secondary: #c7cacc !important;
+    --accent: #c91b68 !important;
+    --border: #e9ecef !important;
+    --shadow: 0 4px 20px rgba(201,27,104,0.1) !important;
+    --gradient: linear-gradient(135deg, #c91b68 0%, #a81454 100%) !important;
+}
+
+[data-palette="neon-red"][data-theme="dark"] {
+    --bg-primary: #0d0f12 !important;
+    --bg-secondary: #171a1f !important;
+    --text-primary: #c7cacc !important;
+    --text-secondary: #6b7280 !important;
+    --accent: #c91b68 !important;
+    --border: #2d3748 !important;
+    --shadow: 0 10px 30px rgba(201,27,104,0.3) !important;
+    --gradient: linear-gradient(135deg, #0d0f12 0%, #171a1f 100%) !important;
+}
+
+/* Palette 3: Purple */
+[data-palette="purple"] {
+    --bg-primary: #f3f4f6 !important;
+    --bg-secondary: #ffffff !important;
+    --text-primary: #111827 !important;
+    --text-secondary: #ffffff !important;
+    --accent: #6049ea !important;
+    --border: #d1d5db !important;
+    --shadow: 0 4px 20px rgba(96,73,234,0.1) !important;
+    --gradient: linear-gradient(135deg, #6049ea 0%, #4f46e5 100%) !important;
+}
+
+[data-palette="purple"][data-theme="dark"] {
+    --bg-primary: #000000 !important;
+    --bg-secondary: #111827 !important;
+    --text-primary: #ffffff !important;
+    --text-secondary: #9ca3af !important;
+    --accent: #6049ea !important;
+    --border: #374151 !important;
+    --shadow: 0 10px 30px rgba(96,73,234,0.3) !important;
+    --gradient: linear-gradient(135deg, #000000 0%, #111827 100%) !important;
+}
+
+/* Palette 4: Bright-Green */
+[data-palette="bright-green"] {
+    --bg-primary: #f9fafb !important;
+    --bg-secondary: #ffffff !important;
+    --text-primary: #111827 !important;
+    --text-secondary: #6b7280 !important;
+    --accent: #01c16a !important;
+    --border: #d1d5db !important;
+    --shadow: 0 4px 20px rgba(1,193,106,0.1) !important;
+    --gradient: linear-gradient(135deg, #01c16a 0%, #00a85a 100%) !important;
+}
+
+[data-palette="bright-green"][data-theme="dark"] {
+    --bg-primary: #111827 !important;
+    --bg-secondary: #1f2937 !important;
+    --text-primary: #ffffff !important;
+    --text-secondary: #d1d5db !important;
+    --accent: #01c16a !important;
+    --border: #374151 !important;
+    --shadow: 0 10px 30px rgba(1,193,106,0.3) !important;
+    --gradient: linear-gradient(135deg, #111827 0%, #1f2937 100%) !important;
+}
+
+/* Palette 5: Classic Black-White */
+[data-palette="classic"] {
+    --bg-primary: #fafafa !important;
+    --bg-secondary: #ffffff !important;
+    --text-primary: #111111 !important;
+    --text-secondary: #666666 !important;
+    --accent: #333333 !important;
+    --border: #e5e5e5 !important;
+    --shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+    --gradient: linear-gradient(135deg, #333333 0%, #222222 100%) !important;
+}
+
+[data-palette="classic"][data-theme="dark"] {
+    --bg-primary: #121212 !important;
+    --bg-secondary: #1a1a1a !important;
+    --text-primary: #ffffff !important;
+    --text-secondary: #b3b3b3 !important;
+    --accent: #ffffff !important;
+    --border: #333333 !important;
+    --shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
+    --gradient: linear-gradient(135deg, #121212 0%, #1a1a1a 100%) !important;
+}
