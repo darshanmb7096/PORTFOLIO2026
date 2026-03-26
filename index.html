@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan MB - .NET Backend Developer | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="palettes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">>DARSHAN</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="theme-toggle" class="nav-theme-toggle" aria-label="Toggle theme" title="Light/Dark">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="palette-dropdown">
+                    <button id="palette-toggle" class="nav-palette-toggle" aria-label="Color Palettes" title="Choose Color Palette">
+                        <i class="fas fa-palette"></i>
+                    </button>
+                    <div class="palette-menu" id="palette-menu">
+                        <div class="palette-option" data-palette="teal-dark" title="Teal-Dark" style="background: linear-gradient(135deg, #599692, #11172a);"></div>
+                        <div class="palette-option" data-palette="neon-red" title="Neon-Red" style="background: linear-gradient(135deg, #c91b68, #0d0f12);"></div>
+                        <div class="palette-option" data-palette="purple" title="Purple" style="background: linear-gradient(135deg, #6049ea, #000000);"></div>
+                        <div class="palette-option" data-palette="bright-green" title="Bright-Green" style="background: linear-gradient(135deg, #01c16a, #111827);"></div>
+                        <div class="palette-option" data-palette="classic" title="Classic B/W" style="background: linear-gradient(135deg, #333333, #121212);"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bubbles">
+            <div class="bubble" style="--left: 5%; --delay: 0s; --duration: 25s; --size: 80px;"></div>
+            <div class="bubble" style="--left: 20%; --delay: -4s; --duration: 32s; --size: 120px;"></div>
+            <div class="bubble" style="--left: 35%; --delay: -8s; --duration: 28s; --size: 60px;"></div>
+            <div class="bubble" style="--left: 55%; --delay: -12s; --duration: 35s; --size: 100px;"></div>
+            <div class="bubble" style="--left: 70%; --delay: -16s; --duration: 22s; --size: 45px;"></div>
+            <div class="bubble" style="--left: 85%; --delay: -20s; --duration: 30s; --size: 90px;"></div>
+            <div class="bubble" style="--left: 15%; --delay: -2s; --duration: 26s; --size: 70px;"></div>
+            <div class="bubble" style="--left: 45%; --delay: -6s; --duration: 24s; --size: 110px;"></div>
+            <div class="bubble" style="--left: 65%; --delay: -10s; --duration: 29s; --size: 55px;"></div>
+            <div class="bubble" style="--left: 90%; --delay: -14s; --duration: 31s; --size: 75px;"></div>
+            <div class="bubble" style="--left: 25%; --delay: -18s; --duration: 27s; --size: 95px;"></div>
+            <div class="bubble" style="--left: 80%; --delay: -22s; --duration: 23s; --size: 65px;"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-up">Darshan MB</h1>
+            <p class="hero-subtitle fade-up delay-1">Software Engineer</p>
+            <p class="hero-description fade-up delay-2">.NET dev crafting scalable enterprise systems.</p>
+            <div class="hero-buttons fade-up delay-3">
+                <a href="./DARSHAN_MB_SDE2.pdf" download="Darshan_MB_Resume.pdf" class="btn btn-primary">Download Resume</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+            <div class="hero-contact fade-up delay-4">
+                <a href="mailto:morkandadarshan@gmail.com" class="contact-link"><i class="fas fa-envelope"></i> morkandadarshan@gmail.com</a>
+                <a href="https://linkedin.com/in/darshanmb/" class="contact-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/darshanmb7096" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about bubbles-enabled">
+        <div class="section-bubbles">
+            <div class="bubble" style="--left: 5%; --delay: 0s; --duration: 25s; --size: 60px;"></div>
+            <div class="bubble" style="--left: 20%; --delay: -4s; --duration: 32s; --size: 80px;"></div>
+            <div class="bubble" style="--left: 35%; --delay: -8s; --duration: 28s; --size: 45px;"></div>
+            <div class="bubble" style="--left: 55%; --delay: -12s; --duration: 35s; --size: 70px;"></div>
+            <div class="bubble" style="--left: 70%; --delay: -16s; --duration: 22s; --size: 50px;"></div>
+            <div class="bubble" style="--left: 85%; --delay: -20s; --duration: 30s; --size: 65px;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title fade-up">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text fade-up delay-1">
+                    <p>.NET Backend Developer with 2+ years of hands-on experience building and maintaining enterprise-grade applications across trading, warehouse, and SaaS domains. Specialized in designing scalable RESTful APIs using ASP.NET Core and optimizing complex Oracle and SQL Server stored procedures for high-volume transactional workloads.</p>
+                    <p>Proven ability to own backend production systems end-to-end, deliver reliable performant solutions (~35-40% query improvements), and collaborate effectively with cross-functional teams including Angular frontend and QA.</p>
+                </div>
+                <div class="experience fade-up delay-2">
+                    <div class="exp-item">
+                        <h3>Invensoft Technologies, Mysore</h3>
+                        <span class="exp-role">Junior Software Engineer</span>
+                        <span class="exp-date">Mar 2024 – Present</span>
+                    </div>
+                    <div class="exp-item">
+                        <span class="exp-role">Software Engineer Trainee</span>
+                        <span class="exp-date">Aug 2023 – Mar 2024</span>
+                    </div>
+                    <div class="exp-item">
+                        <h4>Education</h4>
+                        <p>B.E. Computer Science & Engineering<br>Shree Devi Institute of Technology, Mangaluru<br>Aug 2019 – May 2023 (CGPA: 7.84)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills bubbles-enabled">
+        <div class="section-bubbles">
+            <div class="bubble" style="--left: 5%; --delay: 0s; --duration: 25s; --size: 55px;"></div>
+            <div class="bubble" style="--left: 25%; --delay: -5s; --duration: 30s; --size: 75px;"></div>
+            <div class="bubble" style="--left: 45%; --delay: -10s; --duration: 28s; --size: 60px;"></div>
+            <div class="bubble" style="--left: 65%; --delay: -15s; --duration: 35s; --size: 50px;"></div>
+            <div class="bubble" style="--left: 85%; --delay: -20s; --duration: 22s; --size: 70px;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title fade-up">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category fade-up delay-1">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <ul>
+                        <li>C#, ASP.NET Core Web API</li>
+                        <li>ADO.NET, Entity Framework</li>
+                        <li>REST API Design, Dependency Injection</li>
+                        <li>Clean Architecture, Repository Pattern</li>
+                    </ul>
+                </div>
+                <div class="skill-category fade-up delay-2">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <ul>
+                        <li>Oracle, SQL Server, MySQL</li>
+                        <li>Stored Procedures, Query Optimization</li>
+                        <li>Indexing, Schema Design, Pagination</li>
+                    </ul>
+                </div>
+                <div class="skill-category fade-up delay-3">
+                    <h3><i class="fas fa-cogs"></i> Tools</h3>
+                    <ul>
+                        <li>Git, TFS, Azure (Basic)</li>
+                        <li>Docker (Basic), Linux (Ubuntu)</li>
+                        <li>Agile/Scrum</li>
+                    </ul>
+                </div>
+                <div class="skill-category fade-up delay-4">
+                    <h3><i class="fas fa-desktop"></i> Frontend</h3>
+                    <ul>
+                        <li>Angular (Working Knowledge)</li>
+                        <li>HTML, CSS, JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects bubbles-enabled">
+        <div class="section-bubbles">
+            <div class="bubble" style="--left: 10%; --delay: 0s; --duration: 28s; --size: 65px;"></div>
+            <div class="bubble" style="--left: 30%; --delay: -6s; --duration: 32s; --size: 85px;"></div>
+            <div class="bubble" style="--left: 50%; --delay: -12s; --duration: 26s; --size: 55px;"></div>
+            <div class="bubble" style="--left: 70%; --delay: -18s; --duration: 34s; --size: 75px;"></div>
+            <div class="bubble" style="--left: 90%; --delay: -24s; --duration: 29s; --size: 60px;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title fade-up">Notable Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-up delay-1">
+                    <h3>DCLOUD – Enterprise Commodity Trading Platform</h3>
+                    <p>Migrated legacy monolithic trading system to modular architecture covering trading, finance, and master modules. Built APIs and stored procedures handling real-time high-value commodity trade transactions with full data integrity.</p>
+                    <div class="project-tech"><span>ASP.NET Core</span> <span>Oracle</span> <span>Clean Arch</span></div>
+                </div>
+                <div class="project-card fade-up delay-2">
+                    <h3>DRSS – Warehouse & Handling Management System</h3>
+                    <p>Developed end-to-end backend for a production WMS handling high-volume inventory and transactional workflows for enterprise clients. Optimized Oracle stored procedures reducing data retrieval time by ~30%.</p>
+                    <div class="project-tech"><span>ASP.NET Core</span> <span>SQL Server</span> <span>ADO.NET</span></div>
+                </div>
+                <div class="project-card fade-up delay-3">
+                    <h3>Digital Agriculture (SaaS Platform)</h3>
+                    <p>Built reporting APIs with pagination and search for large agricultural datasets, improving report generation speed significantly.</p>
+                    <div class="project-tech"><span>REST APIs</span> <span>MySQL</span> <span>Pagination</span></div>
+                </div>
+                <div class="project-card fade-up delay-4">
+                    <h3>XBS 3PL Warehousing System</h3>
+                    <p>Developed mobile-focused transactional APIs extending an existing warehouse platform to support real-time inventory and multi-location tracking.</p>
+                    <div class="project-tech"><span>ASP.NET Core</span> <span>SQL Server</span> <span>Transactions</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact bubbles-enabled">
+        <div class="section-bubbles">
+            <div class="bubble" style="--left: 5%; --delay: 0s; --duration: 25s; --size: 50px;"></div>
+            <div class="bubble" style="--left: 25%; --delay: -4s; --duration: 30s; --size: 70px;"></div>
+            <div class="bubble" style="--left: 45%; --delay: -8s; --duration: 28s; --size: 45px;"></div>
+            <div class="bubble" style="--left: 65%; --delay: -12s; --duration: 32s; --size: 60px;"></div>
+            <div class="bubble" style="--left: 85%; --delay: -16s; --duration: 26s; --size: 55px;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title fade-up">Get In Touch</h2>
+            <p class="contact-intro fade-up delay-1">Interested in collaborating on scalable backend solutions? Let's connect.</p>
+            <form class="contact-form fade-up delay-2">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info fade-up delay-3">
+                <p><i class="fas fa-phone"></i> +91 7348936601</p>
+                <p><i class="fas fa-map-marker-alt"></i> Madikeri, Kodagu, Karnataka</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Darshan MB. Built with HTML, CSS & JS.</p>
+        </div>
+    </footer>
+
+        <button id="scroll-top" class="scroll-top" title="Back to Top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    <script src="script.js"></script>
+</body>
+</html>
