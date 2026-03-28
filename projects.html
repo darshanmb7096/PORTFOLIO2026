@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Darshan MB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="palettes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">>DARSHAN</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="index.html#projects" class="nav-link active">Projects</a></li>
+                <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="theme-toggle" class="nav-theme-toggle" aria-label="Toggle theme" title="Light/Dark">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="palette-dropdown">
+                    <button id="palette-toggle" class="nav-palette-toggle" aria-label="Color Palettes" title="Choose Color Palette">
+                        <i class="fas fa-palette"></i>
+                    </button>
+                    <div class="palette-menu" id="palette-menu">
+                        <div class="palette-option" data-palette="teal-dark" title="Teal-Dark" style="background: linear-gradient(135deg, #599692, #11172a);"></div>
+                        <div class="palette-option" data-palette="neon-red" title="Neon-Red" style="background: linear-gradient(135deg, #c91b68, #0d0f12);"></div>
+                        <div class="palette-option" data-palette="purple" title="Purple" style="background: linear-gradient(135deg, #6049ea, #000000);"></div>
+                        <div class="palette-option" data-palette="bright-green" title="Bright-Green" style="background: linear-gradient(135deg, #01c16a, #111827);"></div>
+                        <div class="palette-option" data-palette="classic" title="Classic B/W" style="background: linear-gradient(135deg, #333333, #121212);"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="projects-section">
+        <div class="hero-bubbles">
+            <div class="bubble" style="--left: 5%; --delay: 0s; --duration: 25s; --size: 80px;"></div>
+            <div class="bubble" style="--left: 20%; --delay: -4s; --duration: 32s; --size: 120px;"></div>
+            <div class="bubble" style="--left: 35%; --delay: -8s; --duration: 28s; --size: 60px;"></div>
+            <div class="bubble" style="--left: 55%; --delay: -12s; --duration: 35s; --size: 100px;"></div>
+            <div class="bubble" style="--left: 70%; --delay: -16s; --duration: 22s; --size: 45px;"></div>
+            <div class="bubble" style="--left: 85%; --delay: -20s; --duration: 30s; --size: 90px;"></div>
+        </div>
+        <div class="container">
+            <h1 class="page-title fade-up">Personal Projects</h1>
+            <div class="projects-grid">
+                <a href="project-details.html?id=1" class="project-card fade-up">
+                    <img src="assets/Picture1.jpg" alt="Virtual TryOn">
+                    <div class="project-info">
+                        <h3>Virtual TryOn AR/ML</h3>
+                        <p>Web Development</p>
+                        <span class="project-link">View Details →</span>
+                    </div>
+                </a>
+                <a href="project-details.html?id=2" class="project-card fade-up">
+                    <img src="assets/gym.png" alt="Gym Management">
+                    <div class="project-info">
+                        <h3>Gym Management System</h3>
+                        <p>Web Development</p>
+                        <span class="project-link">View Details →</span>
+                    </div>
+                </a>
+                <a href="project-details.html?id=3" class="project-card fade-up">
+                    <img src="assets/covid.png" alt="COVID Bed Booking">
+                    <div class="project-info">
+                        <h3>COVID Bed Booking</h3>
+                        <p>Web Development</p>
+                        <span class="project-link">View Details →</span>
+                    </div>
+                </a>
+                <a href="project-details.html?id=4" class="project-card fade-up">
+                    <img src="assets/drug.png" alt="Drug Management">
+                    <div class="project-info">
+                        <h3>Drug Management API</h3>
+                        <p>API</p>
+                        <span class="project-link">View Details →</span>
+                    </div>
+                </a>
+                <a href="project-details.html?id=5" class="project-card fade-up">
+                    <img src="assets/noteapp.png" alt="Note App">
+                    <div class="project-info">
+                        <h3>Note Application</h3>
+                        <p>Android App</p>
+                        <span class="project-link">View Details →</span>
+                    </div>
+                </a>
+                <a href="project-details.html?id=6" class="project-card fade-up">
+                    <img src="assets/snake2.jpg" alt="Snake Game">
+                    <div class="project-info">
+                        <h3>3D Snake Game</h3>
+                        <p>3D Game</p>
+                        <span class="project-link">View Details →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <button id="scroll-top" class="scroll-top" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>

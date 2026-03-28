@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Virtual TryOn using augmented reality & machine learning",
+    "domain": "Web Development",
+    "image": "Picture1.jpg",
+    "description": "Developed a cutting-edge shopping web application that revolutionizes the way users try on clothes. Utilized augmented reality technology to seamlessly blend virtual garments onto the user's body in real-time. Won 1st Place in college Exhibition.",
+    "tools": "HTML5, CSS3, JavaScript, AR.js, TensorFlow.js",
+    "technologies": "Augmented Reality, Machine Learning, Computer Vision",
+    "images": ["Picture1.jpg", "vt1.png", "vt2.png", "vt3.png"],
+    "repositoryUrl": "mailto:morkandadarshan@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Gym Management System",
+    "domain": "Web Development",
+    "image": "gym.png",
+    "description": "Complete gym management solution for tracking members, payments, schedules, and inventory.",
+    "tools": "Angular, HTML, CSS, JavaScript",
+    "technologies": "Fullstack Web App, CRUD Operations",
+    "images": ["gym.png", "gym2.png", "gym3.png", "gym4.png", "gym5.png"],
+    "repositoryUrl": "https://github.com/darshanmb7096"
+  },
+  {
+    "id": 3,
+    "name": "Covid bed-slot booking system",
+    "domain": "Web Development",
+    "image": "covid.png",
+    "description": "Real-time hospital bed availability and booking system developed during COVID-19 pandemic.",
+    "tools": "Angular, Node.js, MongoDB",
+    "technologies": "Real-time Updates, Geolocation",
+    "images": ["covid.png", "covid2.png", "covid3.png"],
+    "repositoryUrl": "https://github.com/darshanmb7096"
+  },
+  {
+    "id": 4,
+    "name": "Drug Management System",
+    "domain": "API",
+    "image": "drug.png",
+    "description": "RESTful API for pharmacy management including inventory, prescriptions, and sales tracking.",
+    "tools": "Node.js, Express, PostgreSQL",
+    "technologies": "REST API, Authentication, Rate Limiting",
+    "images": ["drug.png"],
+    "repositoryUrl": "https://github.com/darshanmb7096"
+  },
+  {
+    "id": 5,
+    "name": "Note Application",
+    "domain": "Android Application",
+    "image": "noteapp.png",
+    "description": "Cross-platform note-taking app with rich text editing, cloud sync, and reminders.",
+    "tools": "Flutter, Firebase",
+    "technologies": "Mobile Development, Offline Storage",
+    "images": ["noteapp.png", "note2.png"],
+    "repositoryUrl": "https://github.com/darshanmb7096"
+  },
+  {
+    "id": 6,
+    "name": "Snake game",
+    "domain": "3D Game",
+    "image": "snake2.jpg",
+    "description": "Classic snake game reimagined in 3D with modern graphics and smooth controls.",
+    "tools": "Three.js, JavaScript",
+    "technologies": "WebGL, 3D Graphics",
+    "images": ["snake2.jpg", "snakebeg.png", "snakelife.png", "snakeout.png"],
+    "repositoryUrl": "https://github.com/darshanmb7096"
+  }
+]
