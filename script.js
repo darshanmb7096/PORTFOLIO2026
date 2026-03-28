@@ -210,6 +210,39 @@ document.querySelectorAll('.project-card, .skill-category').forEach(el => {
 
 
 
+// Projects page functions
+function displayProjectCards(projects) {
+  const container = document.getElementById('project-cards');
+  const filterButtons = document.querySelectorAll('.filter-button');
+  
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      const filtered = filter === 'all' ? projects : projects.filter(p => p.domain.toLowerCase().includes(filter));
+      renderCards(filtered);
+    });
+  });
+  
+  renderCards(projects);
+}
+
+function renderCards(projects) {
+  const container = document.getElementById('project-cards');
+  if (!container) return;
+  container.innerHTML = projects.map(project => `
+    <div class="project-card fade-up" data-domain="${project.domain.toLowerCase()}">
+      <img src="assets/${project.image}" alt="${project.name}" loading="lazy">
+      <div class="card-bottom-border">
+        <h3>${project.name}</h3>
+        <p class="card-domain">${project.domain}</p>
+        <a href="project-details.html?id=${project.id}" class="show-project-text">Show Project</a>
+      </div>
+    </div>
+  `).join('');
+}
+
 // Preload animations on load
 window.addEventListener('load', () => {
     document.body.classList.add('loaded');
